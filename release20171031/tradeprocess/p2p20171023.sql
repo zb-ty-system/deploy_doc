@@ -1,0 +1,1 @@
+ALTER TABLE `p2p_interface_retry` ADD COLUMN `product_code` VARCHAR(32) NULL COMMENT '产品编号' AFTER `memo`;

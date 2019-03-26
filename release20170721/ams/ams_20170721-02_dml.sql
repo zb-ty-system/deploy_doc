@@ -1,0 +1,1 @@
+﻿INSERT INTO `ams_global_config` (`id`, `group_name`, `property_name`, `property_value`, `property_desc`, `create_time`, `modify_time`) VALUES ('2', 'approval_sign', 'batch_asset_approval_sign', 'A,B', '资产审核授权等级', '2017-06-14 09:59:31', '2017-07-03 10:34:22');

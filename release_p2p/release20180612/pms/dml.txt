@@ -1,0 +1,23 @@
+INSERT INTO `pms_global_config`
+(group_name,group_name_desc,property_name,property_value)
+VALUES
+('test_product_switch', '是否开放测试产品标的（on-开放/off-不开放）', 'test_product_switch', 'off'),
+( 'product_approval_sign', '产品审核授权信息配置', 'approval_require_sign', 'A');
+
+
+
+
+INSERT INTO `pms_product_line`
+(line_code,line_name,line_display_name,pattern_code,status,display_status,sale_channel_code,risk_level,description)
+VALUES
+('051806001', '新手标', '新手标', '02', '1', '1', 'TXS', '1', null),
+('051806002', '招财僧30天', '招财僧30天', '02', '1', '1', 'TXS', '1', null),
+('051806003', '招财僧90天', '招财僧90天', '02', '1', '1', 'TXS', '1', null),
+('051806004', '招财僧180天', '招财僧180天', '02', '1', '1', 'TXS', '1', null),
+('051806005', '招财僧360天', '招财僧360天', '02', '1', '1', 'TXS', '1', null),
+('051806006', '180天礼赞专享', '180天礼赞专享', '02', '1', '1', 'TXS', '1', null),
+('051806007', '360天礼赞专享', '360天礼赞专享', '02', '1', '1', 'TXS', '1', null),
+('051806008', '招财僧30天（仅支持银行卡支付）', '招财僧30天（仅支持银行卡支付）', '02', '1', '1', 'TXS', '1', null),
+('051806009', '招财僧90天（仅支持银行卡支付）', '招财僧90天（仅支持银行卡支付）', '02', '1', '1', 'TXS', '1', null),
+('051806010', '招财僧180天（仅支持银行卡支付）', '招财僧180天（仅支持银行卡支付）', '02', '1', '1', 'TXS', '1', null),
+('051806011', '招财僧3600天（仅支持银行卡支付）', '招财僧360天（仅支持银行卡支付）', '02', '1', '1', 'TXS', '1', null);

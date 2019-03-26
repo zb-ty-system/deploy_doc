@@ -1,0 +1,1 @@
+alter table p2p_interface_retry MODIFY `response_param` longtext comment '接口响应参数';
